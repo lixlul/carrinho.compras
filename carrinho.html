@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="/css/carrinho.css">
+</head>
+<body>
+   <main>
+    <!-- seção do carrinho -->
+     <section class="carrinho">
+        <!-- tabela dos produtos -->
+         <table>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Preço Unitário</th>
+                    <th>Total</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- produto 1
+                 -->
+                <tr>
+                    <td>
+                        <img src="/img/creamy1.jfif" alt=""></td>
+                        <td>
+                            <input type="number" value="1" min="1" class="quantidade">
+                        </td>
+                        <td class="peco-unirario">R$ 60,00</td>
+                        <td class="preco-total">R$ 60,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                        </td>
+                     </tr>
+                     <!-- produto 2 -->
+                      <tr>
+                        <td><img src="/img/creamy2.jfif" alt=""></td>
+                        <td>
+                            <input type="number" value="2" min="1"
+                            class="quantidade">
+                        </td>
+                        <td class="preco-unitario">R$ 40,00</td>
+                        <td class="preco-total">R$ 80,00</td>
+                        <td>
+                            <button class="remover-produto">Remover</button>
+                        </td>
+                      </tr>
+            </tbody>
+         </table>
+         <!-- exibição do total final -->
+          <div class="total-final">
+            <h3>Total Final: <span id="total-final">120,00</span></h3>
+          </div>
+     </section>
+   </main> 
+   <!-- adiciona o script para interatividade -->
+    <script src="/js/carrinho.js"></script>
+</body>
+</html>
