@@ -1,0 +1,51 @@
+main{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 1);
+}
+/* estiliza a tabela do carrinho */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+/* estilação o input de quantidade */
+input.quantidade {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+/* estilização o botão de memover */
+button.remover-produto {
+background-color: aquamarine;
+color: #f4f4f4;
+border: none;
+padding: 10px;
+border-radius: 5px;
+cursor: pointer;
+background-color: rgb(79, 176, 176);
+}
+/* estiliza o total final */
+.total-final {
+    text-align: right;
+    margin-top: 20px;
+}
+.total-final h3 {
+    color: #333;
+}
+#total-final{
+    color: #5f9bcf;
+} 
+button.remover-produto:hover {
+    background-color: cadetblue;
+}
